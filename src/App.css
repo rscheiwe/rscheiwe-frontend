@@ -145,6 +145,31 @@ input {
   transition: opacity 500ms cubic-bezier(0.39, 0.575, 0.565, 1) 0ms;
 }
 
+.bg8 {
+  width: 381px;
+  height: 308px;
+  background-color: rgb(255, 230, 0);
+  opacity: 0;
+  overflow: hidden;
+  background-size: 381px 308px;
+  transition: opacity 500ms cubic-bezier(0.39, 0.575, 0.565, 1) 0ms;
+}
+
+.bg9 {
+  width: 381px;
+  height: 308px;
+  background-color: rgb(17, 17, 17);
+  opacity: 0;
+  overflow: hidden;
+  background-size: 381px 308px;
+}
+
+.bg-eclipse {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
 .hit {
   width: 100%;
   height: 100%;
@@ -168,6 +193,16 @@ input {
   margin-left: -24px;
   margin-top: -24px;
   pointer-events: auto;
+}
+
+.hit3 {
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  cursor: pointer;
 }
 
 .LiquidFluid {
@@ -374,11 +409,82 @@ input {
   transition: opacity 800ms cubic-bezier(0.215, 0.61, 0.355, 1) 1700ms, -webkit-transform 800ms cubic-bezier(0.215, 0.61, 0.355, 1) 1700ms;
 }
 
+.icon15 {
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  background-image: url(&quot;assets/images/social/sound.png&quot;);
+  opacity: 0.5;
+  left: 0px;
+}
+
+.icon16 {
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  background-image: url(&quot;assets/images/social/sound.png&quot;);
+  opacity: 0.5;
+  left: 49px;
+}
+
+.icon17 {
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  background-image: url(&quot;assets/images/social/sound.png&quot;);
+  opacity: 0.5;
+  left: 98px;
+}
+
+.icon18 {
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  background-image: url(&quot;assets/images/social/sound.png&quot;);
+  opacity: 0.5;
+  left: 147px;
+}
+
+.icon19 {
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  background-image: url(&quot;assets/images/social/sound.png&quot;);
+  opacity: 0.5;
+  left: 196px;
+}
+
+.icon20 {
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  background-image: url(&quot;assets/images/social/sound.png&quot;);
+  opacity: 0.5;
+  left: 245px;
+}
+
+.icon21 {
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  background-image: url(&quot;assets/images/social/sound.png&quot;);
+  opacity: 0.5;
+  left: 294px;
+}
+
 .border {
   width: 118px;
   height: 38px;
   background-size: 118px 38px;
   border: 1px solid rgb(255, 255, 255);
+  opacity: 0.3;
+}
+
+.border2 {
+  width: 44px;
+  height: 44px;
+  background-size: 44px 44px;
+  border: 1px solid rgb(136, 136, 136);
   opacity: 0.3;
 }
 
@@ -395,6 +501,13 @@ input {
   background-color: rgb(0, 0, 0);
   opacity: 0;
   z-index: 10;
+}
+
+.solid3 {
+  width: 100%;
+  height: 100%;
+  transform: translate3d(0px, 46px, 0px);
+  background-color: rgb(136, 136, 136);
 }
 
 .wrapper {
@@ -477,6 +590,40 @@ input {
   height: 100%;
   transform: scaleX(1) scaleY(1);
   transition: -webkit-transform 1400ms cubic-bezier(0.86, 0, 0.07, 1) 720ms;
+}
+
+.wrapper12 {
+  width: 100%;
+  height: 100%;
+  transform: scaleX(1) scaleY(1);
+  transition: -webkit-transform 1400ms cubic-bezier(0.86, 0, 0.07, 1) 800ms;
+}
+
+.wrapper13 {
+  width: 100%;
+  height: 100%;
+  transform: scaleX(1) scaleY(1);
+  transition: -webkit-transform 1400ms cubic-bezier(0.86, 0, 0.07, 1) 880ms;
+}
+
+.wrapper14 {
+  width: 100%;
+  height: 100%;
+  transform: scaleX(1) scaleY(1);
+  transition: -webkit-transform 1400ms cubic-bezier(0.86, 0, 0.07, 1) 960ms;
+}
+
+.wrapper15 {
+  width: 100%;
+  height: 100%;
+  transform: scaleX(1) scaleY(1);
+  transition: -webkit-transform 1400ms cubic-bezier(0.86, 0, 0.07, 1) 1040ms;
+}
+
+.wrapper16 {
+  width: 100%;
+  height: 100%;
+  transform: translate3d(0px, 0px, 0px);
 }
 
 .emmit {
@@ -670,6 +817,167 @@ input {
   margin-top: -26.73px;
 }
 
+.text13 {
+  /* font-family: Mont; */
+  font-size: 14px;
+  color: rgb(119, 119, 119);
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+  left: 50%;
+  margin-left: -40px;
+  line-height: 80px;
+  opacity: 0.6;
+  bottom: -95px;
+  text-align: center;
+  pointer-events: auto;
+  transition: opacity 1000ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 2500ms;
+}
+
+.text14 {
+  /* font-family: MontBold; */
+  font-size: 12.6px;
+  color: rgb(136, 136, 136);
+  width: 300px;
+  height: 9px;
+  background-size: 300px 9px;
+  left: 50%;
+  margin-left: -150px;
+  line-height: 9px;
+  opacity: 0;
+  letter-spacing: 2.25px;
+  top: -60px;
+  text-align: center;
+}
+
+.text15 {
+  /* font-family: Mont; */
+  font-size: 9px;
+  color: rgb(136, 136, 136);
+  width: 300px;
+  height: 9px;
+  background-size: 300px 9px;
+  left: 50%;
+  margin-left: -150px;
+  line-height: 9px;
+  opacity: 0;
+  letter-spacing: 1.8px;
+  top: -45px;
+  text-align: center;
+}
+
+.text16 {
+  /* font-family: MontBold; */
+  font-size: 24.3px;
+  color: rgb(238, 238, 238);
+  width: 381px;
+  height: 26.73px;
+  opacity: 0;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translate3d(0px, 0px, 0px);
+  line-height: 26.73px;
+  letter-spacing: 1.215px;
+  background-size: 381px 26.73px;
+  left: 50%;
+  top: 50%;
+  margin-left: -190.5px;
+  margin-top: -13.365px;
+}
+
+.text17 {
+  width: 100%;
+  text-align: center;
+  /* font-family: Braille; */
+  color: rgb(133, 51, 255);
+  font-size: 19.44px;
+  top: 2.43px;
+}
+
+.text18 {
+  /* font-family: MontBold; */
+  font-size: 24.3px;
+  color: rgb(238, 238, 238);
+  width: 381px;
+  height: 106.92px;
+  opacity: 0;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translate3d(0px, 0px, 0px);
+  line-height: 26.73px;
+  letter-spacing: 1.215px;
+  background-size: 381px 106.92px;
+  left: 50%;
+  top: 50%;
+  margin-left: -190.5px;
+  margin-top: -53.46px;
+}
+
+.text19 {
+  width: 100%;
+  text-align: center;
+  /* font-family: Braille; */
+  color: rgb(146, 51, 255);
+  font-size: 19.44px;
+  top: 2.43px;
+}
+
+.text20 {
+  width: 100%;
+  text-align: center;
+  /* font-family: Braille; */
+  color: rgb(160, 51, 255);
+  font-size: 19.44px;
+  top: 2.43px;
+}
+
+.text21 {
+  width: 100%;
+  text-align: center;
+  /* font-family: Braille; */
+  color: rgb(173, 51, 255);
+  font-size: 19.44px;
+  top: 2.43px;
+}
+
+.text22 {
+  /* font-family: Mont; */
+  font-size: 14px;
+  color: rgb(170, 170, 170);
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+  left: 50%;
+  margin-left: -40px;
+  line-height: 80px;
+  opacity: 0;
+  bottom: -95px;
+  text-align: center;
+  pointer-events: auto;
+}
+
+.text23 {
+  /* font-family: Mont; */
+  font-size: 17px;
+  color: rgb(136, 136, 136);
+  width: 100%;
+  top: 13.5px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.text24 {
+  /* font-family: Mont; */
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  top: 13.5px;
+  line-height: 17px;
+  text-align: center;
+  opacity: 0;
+  transform: translate3d(0px, 10px, 0px);
+}
+
 .emmit2 {
   width: 450px;
   height: 36px;
@@ -761,6 +1069,14 @@ input {
   background-color: rgb(0, 0, 0);
 }
 
+.UIMenuBars-eclipse {
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  pointer-events: none;
+  overflow: hidden;
+}
+
 .inner {
   width: 100%;
   height: 100%;
@@ -789,6 +1105,20 @@ input {
   height: 100%;
 }
 
+.inner5 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(245, 245, 245);
+  transform: scaleX(0);
+}
+
+.inner6 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: scaleX(1.2);
+}
+
 .slices {
   width: 729px;
   height: 308px;
@@ -796,6 +1126,16 @@ input {
   left: 50%;
   top: 50%;
   margin-left: -364.5px;
+  margin-top: -154px;
+}
+
+.slices2 {
+  width: 324px;
+  height: 308px;
+  background-size: 324px 308px;
+  left: 50%;
+  top: 50%;
+  margin-left: -162px;
   margin-top: -154px;
 }
 
@@ -839,6 +1179,76 @@ input {
   background-size: 81px 308px;
 }
 
+.UIMenuSlice5 {
+  width: 81px;
+  height: 308px;
+  visibility: visible;
+  z-index: 1;
+  top: 0px;
+  left: 405px;
+  background-size: 81px 308px;
+}
+
+.UIMenuSlice6 {
+  width: 81px;
+  height: 308px;
+  visibility: visible;
+  z-index: 1;
+  top: 0px;
+  left: 486px;
+  background-size: 81px 308px;
+}
+
+.UIMenuSlice7 {
+  width: 81px;
+  height: 308px;
+  visibility: visible;
+  z-index: 1;
+  top: 0px;
+  left: 567px;
+  background-size: 81px 308px;
+}
+
+.UIMenuSlice8 {
+  width: 81px;
+  height: 308px;
+  visibility: visible;
+  z-index: 1;
+  top: 0px;
+  left: 648px;
+  background-size: 81px 308px;
+}
+
+.UIMenuSlice9 {
+  width: 81px;
+  height: 308px;
+  visibility: hidden;
+  z-index: 1;
+  top: 0px;
+  left: 81px;
+  background-size: 81px 308px;
+}
+
+.UIMenuSlice10 {
+  width: 81px;
+  height: 308px;
+  visibility: hidden;
+  z-index: 1;
+  top: 0px;
+  left: 162px;
+  background-size: 81px 308px;
+}
+
+.UIMenuSlice11 {
+  width: 81px;
+  height: 308px;
+  visibility: hidden;
+  z-index: 1;
+  top: 0px;
+  left: 243px;
+  background-size: 81px 308px;
+}
+
 .animate-color {
   width: 100%;
   height: 100%;
@@ -867,6 +1277,54 @@ input {
   width: 100%;
   height: 100%;
   background-color: rgb(99, 99, 99);
+}
+
+.animate-color5 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(79, 79, 79);
+}
+
+.animate-color6 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(59, 59, 59);
+}
+
+.animate-color7 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(41, 41, 41);
+}
+
+.animate-color8 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(20, 20, 20);
+}
+
+.animate-color9 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(61, 0, 153);
+}
+
+.animate-color10 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(90, 0, 194);
+}
+
+.animate-color11 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(122, 0, 230);
+}
+
+.animate-color12 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(159, 15, 255);
 }
 
 .t {
@@ -928,4 +1386,48 @@ input {
   height: auto;
   opacity: 0;
   transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 544ms;
+}
+
+.glow {
+  width: 381px;
+  height: 308px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 123.2px, rgb(163, 102, 255) 0px 0px 215.6px, rgb(82, 0, 204) 0px 0px 308px;
+  opacity: 0;
+  background-size: 381px 308px;
+}
+
+.glow2 {
+  width: 381px;
+  height: 308px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 123.2px, rgb(173, 102, 255) 0px 0px 215.6px, rgb(95, 0, 204) 0px 0px 308px;
+  opacity: 0;
+  background-size: 381px 308px;
+}
+
+.glow3 {
+  width: 381px;
+  height: 308px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 123.2px, rgb(184, 102, 255) 0px 0px 215.6px, rgb(109, 0, 204) 0px 0px 308px;
+  opacity: 0;
+  background-size: 381px 308px;
+}
+
+.glow4 {
+  width: 381px;
+  height: 308px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 123.2px, rgb(194, 102, 255) 0px 0px 215.6px, rgb(122, 0, 204) 0px 0px 308px;
+  opacity: 0;
+  background-size: 381px 308px;
+}
+
+.UIAboutButton {
+  width: 46px;
+  height: 46px;
+  background-size: 46px 46px;
+  bottom: 40px;
+  right: 40px;
+  overflow: hidden;
+  z-index: 1000;
+  opacity: 1;
+  transition: opacity 2000ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 2000ms;
 }

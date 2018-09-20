@@ -478,28 +478,28 @@ class App extends Component {
   <div className="hit">
   </div>
 </div>
-<div className="UIMenuSlice" style="width: 81px; height: 308px; visibility: visible; z-index: 1; top: 0px; left: 405px; background-size: 81px 308px;">
-  <div className="wrapper" style="width: 100%; height: 100%; transform: scaleX(1) scaleY(1); transition: -webkit-transform 1400ms cubic-bezier(0.86, 0, 0.07, 1) 800ms;">
-    <div className="wrapper1" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(1.97626e-323px, 0px, 0px) scaleX(1) scaleY(1); background-size: 381px 308px;">
-      <div className="wrapper" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(-300px, 0px, 0px); background-size: 381px 308px;">
-        <div className="wrapper" style="width: 100%; height: 100%; transform: translate3d(150px, 0px, 0px);">
-          <div className="animate-color" style="width: 100%; height: 100%; background-color: rgb(79, 79, 79);">
+<div className="UIMenuSlice5">
+  <div className="wrapper12">
+    <div className="wrapper8">
+      <div className="wrapper5">
+        <div className="wrapper6">
+          <div className="animate-color5">
           </div>
-          <div className="bg" style="width: 381px; height: 308px; background-color: rgb(17, 17, 17); opacity: 0; overflow: hidden; background-size: 381px 308px; transition: opacity 500ms cubic-bezier(0.39, 0.575, 0.565, 1) 0ms;">
-            <div className="inner" style="width: 100%; height: 100%; opacity: 1; transform: scaleX(1.2); transition: opacity 3000ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 0ms;">
-              <div className="inner" style="width: 100%; height: 100%; background-image: url(&quot;assets/images/menu/stones.jpg&quot;); background-size: cover; background-position: center center;">
+          <div className="bg5">
+            <div className="inner2">
+              <div className="inner3">
               </div>
             </div>
           </div>
-          <div className="solid" style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); opacity: 0; z-index: 10;">
+          <div className="solid2">
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div className="text" style="font-family: MontBold; font-size: 24.3px; color: rgb(238, 238, 238); width: 381px; height: 26.73px; opacity: 0; text-align: center; text-transform: uppercase; transform: translate3d(150px, 0px, 0px); line-height: 26.73px; letter-spacing: 1.215px; background-size: 381px 26.73px; left: 50%; top: 50%; margin-left: -190.5px; margin-top: -13.365px;">
-    <div className="inner" style="width: 100%; height: 100%;">
-      <div className="text" style="width: 100%; text-align: center; font-family: Braille; color: rgb(238, 238, 238); font-size: 19.44px; top: 2.43px;">
+  <div className="text9">
+    <div className="inner4">
+      <div className="text10">
         <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 0; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 280ms;">S
         </span>
         <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 0; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 180ms;">t
@@ -513,7 +513,7 @@ class App extends Component {
         <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 0; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 235ms;">s
         </span>
       </div>
-        <div className="text" style="width: 100%; text-align: center;">
+        <div className="text11">
         <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 1; transition: opacity 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 280ms;">S
         </span>
         <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 1; transition: opacity 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 180ms;">t
@@ -529,31 +529,31 @@ class App extends Component {
       </div>
     </div>
   </div>
-  <div className="hit" style="width: 100%; height: 100%; z-index: 99999; top: 0px; left: 0px; position: absolute; cursor: pointer; pointer-events: auto;">
+  <div className="hit">
     </div>
       </div>
-      <div className="UIMenuSlice" style="width: 81px; height: 308px; visibility: visible; z-index: 1; top: 0px; left: 486px; background-size: 81px 308px;">
-        <div className="wrapper" style="width: 100%; height: 100%; transform: scaleX(1) scaleY(1); transition: -webkit-transform 1400ms cubic-bezier(0.86, 0, 0.07, 1) 880ms;">
-          <div className="wrapper1" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(1.97626e-323px, 0px, 0px) scaleX(1) scaleY(1); background-size: 381px 308px;">
-            <div className="wrapper" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(-300px, 0px, 0px); background-size: 381px 308px;">
-              <div className="wrapper" style="width: 100%; height: 100%; transform: translate3d(150px, 0px, 0px);">
-                <div className="animate-color" style="width: 100%; height: 100%; background-color: rgb(59, 59, 59);">
+      <div className="UIMenuSlice6">
+        <div className="wrapper13">
+          <div className="wrapper8">
+            <div className="wrapper5">
+              <div className="wrapper6">
+                <div className="animate-color6">
                 </div>
-                <div className="bg" style="width: 381px; height: 308px; background-color: rgb(17, 17, 17); opacity: 0; overflow: hidden; background-size: 381px 308px; transition: opacity 500ms cubic-bezier(0.39, 0.575, 0.565, 1) 0ms;">
-                  <div className="inner" style="width: 100%; height: 100%; opacity: 1; transform: scaleX(1.2); transition: opacity 3000ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 0ms;">
-                    <div className="inner" style="width: 100%; height: 100%; background-image: url(&quot;assets/images/menu/woman.jpg&quot;); background-size: cover; background-position: center center;">
+                <div className="bg5">
+                  <div className="inner2">
+                    <div className="inner3">
                     </div>
                   </div>
                 </div>
-                <div className="solid" style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); opacity: 0; z-index: 10;">
+                <div className="solid2">
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="text" style="font-family: MontBold; font-size: 24.3px; color: rgb(238, 238, 238); width: 381px; height: 26.73px; opacity: 0; text-align: center; text-transform: uppercase; transform: translate3d(150px, 0px, 0px); line-height: 26.73px; letter-spacing: 1.215px; background-size: 381px 26.73px; left: 50%; top: 50%; margin-left: -190.5px; margin-top: -13.365px;">
-          <div className="inner" style="width: 100%; height: 100%;">
-            <div className="text" style="width: 100%; text-align: center; font-family: Braille; color: rgb(238, 238, 238); font-size: 19.44px; top: 2.43px;">
+        <div className="text9">
+          <div className="inner4">
+            <div className="text10">
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 0; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 585ms;">W
               </span>
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 0; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 539ms;">o
@@ -565,7 +565,7 @@ class App extends Component {
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 0; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 502ms;">n
               </span>
             </div>
-            <div className="text" style="width: 100%; text-align: center;">
+            <div className="text11">
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 1; transition: opacity 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 585ms;">W
               </span>
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 1; transition: opacity 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 539ms;">o
@@ -579,31 +579,31 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className="hit" style="width: 100%; height: 100%; z-index: 99999; top: 0px; left: 0px; position: absolute; cursor: pointer; pointer-events: auto;">
+        <div className="hit">
       </div>
     </div>
-    <div className="UIMenuSlice" style="width: 81px; height: 308px; visibility: visible; z-index: 1; top: 0px; left: 567px; background-size: 81px 308px;">
-      <div className="wrapper" style="width: 100%; height: 100%; transform: scaleX(1) scaleY(1); transition: -webkit-transform 1400ms cubic-bezier(0.86, 0, 0.07, 1) 960ms;">
-        <div className="wrapper1" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(1.97626e-323px, 0px, 0px) scaleX(1) scaleY(1); background-size: 381px 308px;">
-          <div className="wrapper" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(-300px, 0px, 0px); background-size: 381px 308px;">
-            <div className="wrapper" style="width: 100%; height: 100%; transform: translate3d(150px, 0px, 0px);">
-              <div className="animate-color" style="width: 100%; height: 100%; background-color: rgb(41, 41, 41);">
+    <div className="UIMenuSlice7">
+      <div className="wrapper14">
+        <div className="wrapper8">
+          <div className="wrapper5">
+            <div className="wrapper6">
+              <div className="animate-color7">
               </div>
-              <div className="bg" style="width: 381px; height: 308px; background-color: rgb(17, 17, 17); opacity: 0; overflow: hidden; background-size: 381px 308px; transition: opacity 500ms cubic-bezier(0.39, 0.575, 0.565, 1) 0ms;">
-                <div className="inner" style="width: 100%; height: 100%; opacity: 1; transform: scaleX(1.2); transition: opacity 3000ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 0ms;">
-                  <div className="inner" style="width: 100%; height: 100%; background-image: url(&quot;assets/images/menu/blinded.jpg&quot;); background-size: cover; background-position: center center;">
+              <div className="bg5">
+                <div className="inner2">
+                  <div className="inner3">
                   </div>
                 </div>
               </div>
-              <div className="solid" style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); opacity: 0; z-index: 10;">
+              <div className="solid2">
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="text" style="font-family: MontBold; font-size: 24.3px; color: rgb(238, 238, 238); width: 381px; height: 26.73px; opacity: 0; text-align: center; text-transform: uppercase; transform: translate3d(150px, 0px, 0px); line-height: 26.73px; letter-spacing: 1.215px; background-size: 381px 26.73px; left: 50%; top: 50%; margin-left: -190.5px; margin-top: -13.365px;">
-        <div className="inner" style="width: 100%; height: 100%;">
-          <div className="text" style="width: 100%; text-align: center; font-family: Braille; color: rgb(238, 238, 238); font-size: 19.44px; top: 2.43px;">
+      <div className="text9">
+        <div className="inner4">
+          <div className="text10">
             <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 0; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 537ms;">B
             </span>
             <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 0; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 336ms;">l
@@ -619,7 +619,7 @@ class App extends Component {
             <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 0; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 179ms;">d
             </span>
           </div>
-          <div className="text" style="width: 100%; text-align: center;">
+          <div className="text11">
             <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 1; transition: opacity 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 537ms;">B
             </span>
             <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 1; transition: opacity 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 336ms;">l
@@ -637,31 +637,31 @@ class App extends Component {
           </div>
         </div>
       </div>
-      <div className="hit" style="width: 100%; height: 100%; z-index: 99999; top: 0px; left: 0px; position: absolute; cursor: pointer; pointer-events: auto;">
+      <div className="hit">
       </div>
     </div>
-    <div className="UIMenuSlice" style="width: 81px; height: 308px; visibility: visible; z-index: 1; top: 0px; left: 648px; background-size: 81px 308px;">
-      <div className="wrapper" style="width: 100%; height: 100%; transform: scaleX(1) scaleY(1); transition: -webkit-transform 1400ms cubic-bezier(0.86, 0, 0.07, 1) 1040ms;">
-        <div className="wrapper1" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(1.97626e-323px, 0px, 0px) scaleX(1) scaleY(1); background-size: 381px 308px;">
-          <div className="wrapper" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(-300px, 0px, 0px); background-size: 381px 308px;">
-            <div className="wrapper" style="width: 100%; height: 100%; transform: translate3d(150px, 0px, 0px);">
-              <div className="animate-color" style="width: 100%; height: 100%; background-color: rgb(20, 20, 20);">
+    <div className="UIMenuSlice8">
+      <div className="wrapper15">
+        <div className="wrapper8">
+          <div className="wrapper5">
+            <div className="wrapper6">
+              <div className="animate-color8">
               </div>
-              <div className="bg" style="width: 381px; height: 308px; background-color: rgb(255, 230, 0); opacity: 0; overflow: hidden; background-size: 381px 308px; transition: opacity 500ms cubic-bezier(0.39, 0.575, 0.565, 1) 0ms;">
-                <div className="inner" style="width: 100%; height: 100%; opacity: 1; transform: scaleX(1.2); transition: opacity 3000ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 0ms;">
-                  <div className="inner" style="width: 100%; height: 100%; background-image: url(&quot;assets/images/menu/everybody.jpg&quot;); background-size: cover; background-position: center center;">
+              <div className="bg8">
+                <div className="inner2">
+                  <div className="inner3">
                   </div>
                 </div>
               </div>
-              <div className="solid" style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); opacity: 0; z-index: 10;">
+              <div className="solid2">
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div className="text" style="font-family: MontBold; font-size: 24.3px; color: rgb(238, 238, 238); width: 381px; height: 53.46px; opacity: 0; text-align: center; text-transform: uppercase; transform: translate3d(150px, 0px, 0px); line-height: 26.73px; letter-spacing: 1.215px; background-size: 381px 53.46px; left: 50%; top: 50%; margin-left: -190.5px; margin-top: -26.73px;">
-      <div className="inner" style="width: 100%; height: 100%;">
-        <div className="text" style="width: 100%; text-align: center; font-family: Braille; color: rgb(238, 238, 238); font-size: 19.44px; top: 2.43px;">
+    <div className="text9">
+      <div className="inner4">
+        <div className="text10">
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 0; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 225ms;">E
           </span>
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 0; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 128ms;">v
@@ -691,7 +691,7 @@ class App extends Component {
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 0; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 304ms;">e
           </span>
         </div>
-        <div className="text" style="width: 100%; text-align: center;">
+        <div className="text11" >
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 1; transition: opacity 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 225ms;">E
           </span>
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto; opacity: 1; transition: opacity 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 128ms;">v
@@ -723,84 +723,84 @@ class App extends Component {
         </div>
       </div>
     </div>
-    <div className="hit" style="width: 100%; height: 100%; z-index: 99999; top: 0px; left: 0px; position: absolute; cursor: pointer; pointer-events: auto;">
+    <div className="hit">
     </div>
   </div>
-  <div className="text2" style="font-family: Mont; font-size: 14px; color: rgb(119, 119, 119); width: 80px; height: 80px; background-size: 80px 80px; left: 50%; margin-left: -40px; line-height: 80px; opacity: 0.6; bottom: -95px; text-align: center; pointer-events: auto; transition: opacity 1000ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 2500ms;">
+  <div className="text13">
   ▼
-    <div className="hit" style="width: 100%; height: 100%; z-index: 99999; top: 0px; left: 0px; position: absolute; cursor: pointer;">
+    <div className="hit">
     </div>
   </div>
 </div>
 </div>
 </div>
-  <div className="UIMenuBars eclipse" style="width: 100%; height: 100%; visibility: hidden; pointer-events: none; overflow: hidden;">
-    <div className="wrapper" style="width: 100%; height: 100%;">
-      <div className="AboutSocial" style="width: 318px; height: 24px; background-size: 318px 24px; bottom: 50px; left: 50%; margin-left: -159px; z-index: 1000; visibility: hidden;">
-        <div className="icon" style="width: 24px; height: 24px; background-size: 24px 24px; background-image: url(&quot;assets/images/social/sound.png&quot;); opacity: 0.5; left: 0px;">
-          <div className="hit" style="width: 48px; height: 48px; z-index: 99999; top: 50%; left: 50%; position: absolute; cursor: pointer; background-size: 48px 48px; margin-left: -24px; margin-top: -24px; pointer-events: auto;">
+  <div className="UIMenuBars-eclipse">
+    <div className="wrapper2">
+      <div className="AboutSocial2">
+        <div className="icon15">
+          <div className="hit">
           </div>
         </div>
-        <div className="icon" style="width: 24px; height: 24px; background-size: 24px 24px; background-image: url(&quot;assets/images/social/spot.png&quot;); opacity: 0.5; left: 49px;">
-          <div className="hit" style="width: 48px; height: 48px; z-index: 99999; top: 50%; left: 50%; position: absolute; cursor: pointer; background-size: 48px 48px; margin-left: -24px; margin-top: -24px; pointer-events: auto;">
+        <div className="icon16">
+          <div className="hit">
           </div>
         </div>
-        <div className="icon" style="width: 24px; height: 24px; background-size: 24px 24px; background-image: url(&quot;assets/images/social/fb.png&quot;); opacity: 0.5; left: 98px;">
-          <div className="hit" style="width: 48px; height: 48px; z-index: 99999; top: 50%; left: 50%; position: absolute; cursor: pointer; background-size: 48px 48px; margin-left: -24px; margin-top: -24px; pointer-events: auto;">
+        <div className="icon17">
+          <div className="hit">
           </div>
         </div>
-        <div className="icon" style="width: 24px; height: 24px; background-size: 24px 24px; background-image: url(&quot;assets/images/social/tw.png&quot;); opacity: 0.5; left: 147px;">
-          <div className="hit" style="width: 48px; height: 48px; z-index: 99999; top: 50%; left: 50%; position: absolute; cursor: pointer; background-size: 48px 48px; margin-left: -24px; margin-top: -24px; pointer-events: auto;">
+        <div className="icon18">
+          <div className="hit">
           </div>
         </div>
-        <div className="icon" style="width: 24px; height: 24px; background-size: 24px 24px; background-image: url(&quot;assets/images/social/inst.png&quot;); opacity: 0.5; left: 196px;">
-          <div className="hit" style="width: 48px; height: 48px; z-index: 99999; top: 50%; left: 50%; position: absolute; cursor: pointer; background-size: 48px 48px; margin-left: -24px; margin-top: -24px; pointer-events: auto;">
+        <div className="icon19">
+          <div className="hit">
           </div>
         </div>
-        <div className="icon" style="width: 24px; height: 24px; background-size: 24px 24px; background-image: url(&quot;assets/images/social/yt.png&quot;); opacity: 0.5; left: 245px;">
-          <div className="hit" style="width: 48px; height: 48px; z-index: 99999; top: 50%; left: 50%; position: absolute; cursor: pointer; background-size: 48px 48px; margin-left: -24px; margin-top: -24px; pointer-events: auto;">
+        <div className="icon20">
+          <div className="hit">
           </div>
         </div>
-        <div className="icon" style="width: 24px; height: 24px; background-size: 24px 24px; background-image: url(&quot;assets/images/social/itu.png&quot;); opacity: 0.5; left: 294px;">
-          <div className="hit" style="width: 48px; height: 48px; z-index: 99999; top: 50%; left: 50%; position: absolute; cursor: pointer; background-size: 48px 48px; margin-left: -24px; margin-top: -24px; pointer-events: auto;">
+        <div className="icon21">
+          <div className="hit">
           </div>
         </div>
       </div>
-      <div className="bg eclipse" style="width: 100%; height: 100%; background-color: rgb(0, 0, 0);">
-        <div className="inner" style="width: 100%; height: 100%; background-color: rgb(245, 245, 245); transform: scaleX(0);">
+      <div className="bg-eclipse">
+        <div className="inner5">
         </div>
       </div>
-      <div className="slices" style="width: 324px; height: 308px; background-size: 324px 308px; left: 50%; top: 50%; margin-left: -162px; margin-top: -154px;">
-        <div className="text1" style="font-family: MontBold; font-size: 12.6px; color: rgb(136, 136, 136); width: 300px; height: 9px; background-size: 300px 9px; left: 50%; margin-left: -150px; line-height: 9px; opacity: 0; letter-spacing: 2.25px; top: -60px; text-align: center;">
+      <div className="slices2">
+        <div className="text14">
         ECLIPSE EP
         </div>
-        <div className="text2" style="font-family: Mont; font-size: 9px; color: rgb(136, 136, 136); width: 300px; height: 9px; background-size: 300px 9px; left: 50%; margin-left: -150px; line-height: 9px; opacity: 0; letter-spacing: 1.8px; top: -45px; text-align: center;">
+        <div className="text15">
         8.21.2017
         </div>
-        <div className="UIMenuSlice" style="width: 81px; height: 308px; visibility: hidden; z-index: 1; top: 0px; left: 0px; background-size: 81px 308px;">
-          <div className="wrapper" style="width: 100%; height: 100%;">
-            <div className="glow" style="width: 381px; height: 308px; box-shadow: rgb(255, 255, 255) 0px 0px 123.2px, rgb(163, 102, 255) 0px 0px 215.6px, rgb(82, 0, 204) 0px 0px 308px; opacity: 0; background-size: 381px 308px;">
+        <div className="UIMenuSlice">
+          <div className="wrapper2">
+            <div className="glow">
             </div>
-            <div className="wrapper1" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(0px, 0px, 0px) scaleX(1) scaleY(1); background-size: 381px 308px;">
-              <div className="wrapper" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(-300px, 0px, 0px); background-size: 381px 308px;">
-                <div className="wrapper" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
-                  <div className="animate-color" style="width: 100%; height: 100%; background-color: rgb(61, 0, 153);">
+            <div className="wrapper4">
+              <div className="wrapper5">
+                <div className="wrapper16">
+                  <div className="animate-color9">
                   </div>
-                  <div className="bg" style="width: 381px; height: 308px; background-color: rgb(17, 17, 17); opacity: 0; overflow: hidden; background-size: 381px 308px;">
-                    <div className="inner" style="width: 100%; height: 100%; opacity: 0; transform: scaleX(1.2);">
-                      <div className="inner" style="width: 100%; height: 100%; background-image: url(&quot;assets/images/menu/memories.jpg&quot;); background-size: cover; background-position: center center;">
+                  <div className="bg9">
+                    <div className="inner6">
+                      <div className="inner3">
                       </div>
                     </div>
                   </div>
-                  <div className="solid" style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); opacity: 0; z-index: 10;">
+                  <div className="solid2">
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="text" style="font-family: MontBold; font-size: 24.3px; color: rgb(238, 238, 238); width: 381px; height: 26.73px; opacity: 0; text-align: center; text-transform: uppercase; transform: translate3d(0px, 0px, 0px); line-height: 26.73px; letter-spacing: 1.215px; background-size: 381px 26.73px; left: 50%; top: 50%; margin-left: -190.5px; margin-top: -13.365px;">
-          <div className="inner" style="width: 100%; height: 100%;">
-            <div className="text" style="width: 100%; text-align: center; font-family: Braille; color: rgb(133, 51, 255); font-size: 19.44px; top: 2.43px;">
+        <div className="text16">
+          <div className="inner4">
+            <div className="text17">
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">M
               </span>
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">e
@@ -818,7 +818,7 @@ class App extends Component {
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">s
               </span>
             </div>
-            <div className="text" style="width: 100%; text-align: center;">
+            <div className="text11">
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">M
               </span>
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">e
@@ -839,30 +839,30 @@ class App extends Component {
           </div>
         </div>
       </div>
-      <div className="UIMenuSlice" style="width: 81px; height: 308px; visibility: hidden; z-index: 1; top: 0px; left: 81px; background-size: 81px 308px;">
-        <div className="wrapper" style="width: 100%; height: 100%;">
-          <div className="glow" style="width: 381px; height: 308px; box-shadow: rgb(255, 255, 255) 0px 0px 123.2px, rgb(173, 102, 255) 0px 0px 215.6px, rgb(95, 0, 204) 0px 0px 308px; opacity: 0; background-size: 381px 308px;">
+      <div className="UIMenuSlice9">
+        <div className="wrapper2">
+          <div className="glow2">
           </div>
-          <div className="wrapper1" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(0px, 0px, 0px) scaleX(1) scaleY(1); background-size: 381px 308px;">
-            <div className="wrapper" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(-300px, 0px, 0px); background-size: 381px 308px;">
-              <div className="wrapper" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
-                <div className="animate-color" style="width: 100%; height: 100%; background-color: rgb(90, 0, 194);">
+          <div className="wrapper4">
+            <div className="wrapper5">
+              <div className="wrapper16">
+                <div className="animate-color10">
                 </div>
-                <div className="bg" style="width: 381px; height: 308px; background-color: rgb(17, 17, 17); opacity: 0; overflow: hidden; background-size: 381px 308px;">
-                  <div className="inner" style="width: 100%; height: 100%; opacity: 0; transform: scaleX(1.2);">
-                    <div className="inner" style="width: 100%; height: 100%; background-image: url(&quot;assets/images/menu/woww.jpg&quot;); background-size: cover; background-position: center center;">
+                <div className="bg9">
+                  <div className="inner6">
+                    <div className="inner3">
                     </div>
                   </div>
                 </div>
-                <div className="solid" style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); opacity: 0; z-index: 10;">
+                <div className="solid2">
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="text" style="font-family: MontBold; font-size: 24.3px; color: rgb(238, 238, 238); width: 381px; height: 106.92px; opacity: 0; text-align: center; text-transform: uppercase; transform: translate3d(0px, 0px, 0px); line-height: 26.73px; letter-spacing: 1.215px; background-size: 381px 106.92px; left: 50%; top: 50%; margin-left: -190.5px; margin-top: -53.46px;">
-          <div className="inner" style="width: 100%; height: 100%;">
-            <div className="text" style="width: 100%; text-align: center; font-family: Braille; color: rgb(146, 51, 255); font-size: 19.44px; top: 2.43px;">
+        <div className="text18">
+          <div className="inner4">
+            <div className="text19">
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">W
               </span>
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">h
@@ -898,7 +898,7 @@ class App extends Component {
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">e
               </span>
             </div>
-            <div className="text" style="width: 100%; text-align: center;">
+            <div className="text11">
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">W
               </span>
               <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">h
@@ -937,30 +937,30 @@ class App extends Component {
         </div>
       </div>
     </div>
-    <div className="UIMenuSlice" style="width: 81px; height: 308px; visibility: hidden; z-index: 1; top: 0px; left: 162px; background-size: 81px 308px;">
-      <div className="wrapper" style="width: 100%; height: 100%;">
-        <div className="glow" style="width: 381px; height: 308px; box-shadow: rgb(255, 255, 255) 0px 0px 123.2px, rgb(184, 102, 255) 0px 0px 215.6px, rgb(109, 0, 204) 0px 0px 308px; opacity: 0; background-size: 381px 308px;">
+    <div className="UIMenuSlice10">
+      <div className="wrapper2">
+        <div className="glow3">
         </div>
-        <div className="wrapper1" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(0px, 0px, 0px) scaleX(1) scaleY(1); background-size: 381px 308px;">
-          <div className="wrapper" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(-300px, 0px, 0px); background-size: 381px 308px;">
-            <div className="wrapper" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
-              <div className="animate-color" style="width: 100%; height: 100%; background-color: rgb(122, 0, 230);">
+        <div className="wrapper4">
+          <div className="wrapper5">
+            <div className="wrapper16">
+              <div className="animate-color11">
               </div>
-              <div className="bg" style="width: 381px; height: 308px; background-color: rgb(17, 17, 17); opacity: 0; overflow: hidden; background-size: 381px 308px;">
-                <div className="inner" style="width: 100%; height: 100%; opacity: 0; transform: scaleX(1.2);">
-                  <div className="inner" style="width: 100%; height: 100%; background-image: url(&quot;assets/images/menu/halo.jpg&quot;); background-size: cover; background-position: center center;">
+              <div className="bg9">
+                <div className="inner6">
+                  <div className="inner3">
                   </div>
                 </div>
               </div>
-            <div className="solid" style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); opacity: 0; z-index: 10;">
+            <div className="solid2">
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div className="text" style="font-family: MontBold; font-size: 24.3px; color: rgb(238, 238, 238); width: 381px; height: 26.73px; opacity: 0; text-align: center; text-transform: uppercase; transform: translate3d(0px, 0px, 0px); line-height: 26.73px; letter-spacing: 1.215px; background-size: 381px 26.73px; left: 50%; top: 50%; margin-left: -190.5px; margin-top: -13.365px;">
+    <div className="text16">
       <div className="inner" style="width: 100%; height: 100%;">
-        <div className="text" style="width: 100%; text-align: center; font-family: Braille; color: rgb(160, 51, 255); font-size: 19.44px; top: 2.43px;">
+        <div className="text20">
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">H
           </span>
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">a
@@ -976,7 +976,7 @@ class App extends Component {
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">2
           </span>
         </div>
-        <div className="text" style="width: 100%; text-align: center;">
+        <div className="text11">
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">H
           </span>
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">a
@@ -995,30 +995,30 @@ class App extends Component {
       </div>
     </div>
   </div>
-  <div className="UIMenuSlice" style="width: 81px; height: 308px; visibility: hidden; z-index: 1; top: 0px; left: 243px; background-size: 81px 308px;">
-    <div className="wrapper" style="width: 100%; height: 100%;">
-      <div className="glow" style="width: 381px; height: 308px; box-shadow: rgb(255, 255, 255) 0px 0px 123.2px, rgb(194, 102, 255) 0px 0px 215.6px, rgb(122, 0, 204) 0px 0px 308px; opacity: 0; background-size: 381px 308px;">
+  <div className="UIMenuSlice11">
+    <div className="wrapper2">
+      <div className="glow4">
       </div>
-      <div className="wrapper1" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(0px, 0px, 0px) scaleX(1) scaleY(1); background-size: 381px 308px;">
-        <div className="wrapper" style="width: 381px; height: 308px; overflow: hidden; transform: translate3d(-300px, 0px, 0px); background-size: 381px 308px;">
-          <div className="wrapper" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
-            <div className="animate-color" style="width: 100%; height: 100%; background-color: rgb(159, 15, 255);">
+      <div className="wrapper4">
+        <div className="wrapper5">
+          <div className="wrapper16">
+            <div className="animate-color12">
             </div>
-            <div className="bg" style="width: 381px; height: 308px; background-color: rgb(17, 17, 17); opacity: 0; overflow: hidden; background-size: 381px 308px;">
-              <div className="inner" style="width: 100%; height: 100%; opacity: 0; transform: scaleX(1.2);">
-                <div className="inner" style="width: 100%; height: 100%; background-image: url(&quot;assets/images/menu/drive.jpg&quot;); background-size: cover; background-position: center center;">
+            <div className="bg9">
+              <div className="inner6">
+                <div className="inner3">
                 </div>
               </div>
             </div>
-            <div className="solid" style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); opacity: 0; z-index: 10;">
+            <div className="solid2">
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div className="text" style="font-family: MontBold; font-size: 24.3px; color: rgb(238, 238, 238); width: 381px; height: 26.73px; opacity: 0; text-align: center; text-transform: uppercase; transform: translate3d(0px, 0px, 0px); line-height: 26.73px; letter-spacing: 1.215px; background-size: 381px 26.73px; left: 50%; top: 50%; margin-left: -190.5px; margin-top: -13.365px;">
-      <div className="inner" style="width: 100%; height: 100%;">
-        <div className="text" style="width: 100%; text-align: center; font-family: Braille; color: rgb(173, 51, 255); font-size: 19.44px; top: 2.43px;">
+    <div className="text16">
+      <div className="inner4">
+        <div className="text21">
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">D
           </span>
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">r
@@ -1030,7 +1030,7 @@ class App extends Component {
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">e
           </span>
         </div>
-        <div className="text" style="width: 100%; text-align: center;">
+        <div className="text11">
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">D
           </span>
           <span className="t" style="display: inline-block; position: relative; padding: 0px; margin: 0px; width: auto; height: auto;">r
@@ -1045,26 +1045,27 @@ class App extends Component {
         </div>
         </div>
         </div>
-        <div className="text2" style="font-family: Mont; font-size: 14px; color: rgb(170, 170, 170); width: 80px; height: 80px; background-size: 80px 80px; left: 50%; margin-left: -40px; line-height: 80px; opacity: 0; bottom: -95px; text-align: center; pointer-events: auto;">
+        <div className="text22">
         ▼
-        <div className="hit" style="width: 100%; height: 100%; z-index: 99999; top: 0px; left: 0px; position: absolute; cursor: pointer;">
+        <div className="hit3">
         </div>
         </div>
         </div>
         </div>
         </div>
         </div>
-        <div className="UIAboutButton" style="width: 46px; height: 46px; background-size: 46px 46px; bottom: 40px; right: 40px; overflow: hidden; z-index: 1000; opacity: 1; transition: opacity 2000ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 2000ms;">
-        <div className="border" style="width: 44px; height: 44px; background-size: 44px 44px; border: 1px solid rgb(136, 136, 136); opacity: 0.3;">
+        <div className="UIAboutButton">
+        <div className="border2">
         </div>
-        <div className="solid" style="width: 100%; height: 100%; transform: translate3d(0px, 46px, 0px); background-color: rgb(136, 136, 136);">
+        <div className="solid3">
         </div>
-        <div className="text" style="font-family: Mont; font-size: 17px; color: rgb(136, 136, 136); width: 100%; top: 13.5px; line-height: 17px; text-align: center;">
+        <div className="text23">
         ?
         </div>
-        <div className="text" style="font-family: Mont; font-size: 17px; color: rgb(255, 255, 255); width: 100%; top: 13.5px; line-height: 17px; text-align: center; opacity: 0; transform: translate3d(0px, 10px, 0px);">?
+        <div className="text24">
+        ?
         </div>
-        <div className="hit" style="width: 100%; height: 100%; z-index: 99999; top: 0px; left: 0px; position: absolute; cursor: pointer; pointer-events: auto;">
+        <div className="hit">
         </div>
         </div>
         </div>
