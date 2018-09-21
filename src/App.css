@@ -1,3 +1,20 @@
+@media (max-width: 750px), (max-height: 450px) {
+	.Container h3 {
+		font-size: 50px;
+
+		}
+
+	.flex-parent {
+		transform: rotate(90deg);
+		/* padding: 0; */
+	}
+}
+@media (max-width: 450px), (max-height: 350px) {
+	.Container h3 {
+		font-size: 40px;
+		}
+		
+	}
 
 body, html {
 	margin: 0;
@@ -5,7 +22,6 @@ body, html {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-
 	/* background: #000; */
 }
 
@@ -28,7 +44,10 @@ body, html {
 	-webkit-text-size-adjust: none;
 } */
 
-
+.Container {
+	/* width:70vw;
+	height:70vh; */
+}
 
 br {
 	position: relative;
@@ -55,27 +74,70 @@ h3 {
   clear: both;
 }
 .parent {
-  padding-right: 25rem;
-  padding-left: 25rem;
+  padding-right: 20%;
+  padding-left: 20%;
   padding-top: 10rem;
+  padding-bottom: 10rem;
+
 
 }
 .child {
   padding: 1rem;
-  max-width: 110px;
-  background-color: blue;
 
+  background-color: blue;
+}
+
+.child1 {
+  padding: 1rem;
+
+	background-color:rgb(231,231,231);
+}
+.child2 {
+  padding: 1rem;
+
+  background-color:rgb(210,210,210);
+}
+.child3 {
+  padding: 1rem;
+
+  background-color:rgb(193,193,193);
+}
+.child4 {
+  padding: 1rem;
+
+  background-color:rgb(170,170,170);
+}
+.child5 {
+  padding: 1rem;
+
+  background-color:rgb(150,150,150);
+}
+.child6 {
+  padding: 1rem;
+
+  background-color:rgb(136,136,136);
+}
+.child7 {
+  padding: 1rem;
+
+  background-color:rgb(114,114,114);
+}
+.child8 {
+  padding: 1rem;
+
+  background-color:rgb(95,95,95);
 }
 
 .flex-parent {
   display: flex;
   align-items: center;
   justify-content: center;
+	/* height:70vh; */
 }
 .flex-child {
   flex: 1;
-  max-width: 110px;
-  height:500px;
+  width: 50vw;
+  height:50vh;
 }
 
 #zoom {
@@ -92,7 +154,8 @@ h3 {
     -ms-transition:transform 1.05s ease-in-out;
 
     /* transition: transform 1s ease-in-out; */
-    transition: cubic-bezier(0.86, 0.7, 1.07, 1) 1000ms;
+    /* transition: opacity 500ms cubic-bezier(0.86, 0.7, 1.07, 1) 1000ms; */
+    /* transition: opacity 500ms cubic-bezier(0.38, 0.575, 0.565, 1) 5000ms; */
     /* margin: 0 auto; */
 
     /* transition: width 2s; */
@@ -100,14 +163,21 @@ h3 {
 }
 
 #zoom:hover {
-    transition: opacity 500ms cubic-bezier(0.38, 0.575, 0.565, 1) 5000ms;
-    transform: translate3d(10px, 0px, 10px) scaleX(2) scaleY(1.1);
-    /* width:300px; */
+		/* transition-timing-function: ease-out;
+    transition: opacity 500ms cubic-bezier(0.38, 0.575, 0.565, 0) 5000ms;
+    transform: translate3d(10px, 0px, 10px) scaleX(2) scaleY(1.1); */
+		transform: scaleX(2) scaleY(1.1);
+		-webkit-transition: 0.4s ease-in-out;
+		-moz-transition: 0.4s ease-in-out;
+		-ms-transition: 0.4s ease-in-out;
     z-index:2;
-    background-color: rgb(0,0,0);/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+		background-color:black;
+		/* -webkit-transition: all .4s ease; */
 }
-/*
-#zoom:hover ~ div#zoom {
-    transform: translate3d(0px, 0px, 0px) scaleX(1) scaleY(1);
-    right: -50px;
+
+
+
+/* #zoom:hover ~ #zoom {
+    transform: translate3d(0px, 0px, 20px) scaleX(.7) scaleY(1);
+    right: 20px;
 } */

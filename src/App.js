@@ -10,19 +10,19 @@ class App extends Component {
   render() {
     return (
       <div id="Stage">
-        <div id="Container" style={{width:'100%', height:'100%'}}>
+        <div className="Container">
 
 <h3 style={{textAlign:'center'}}>Richard Scheiwe</h3>
 
           <div className='parent flex-parent'>
-            <div id="zoom" className='child flex-child' style={{backgroundColor:'rgb(231,231,231)'}} onClick={this.handleClick}>A</div>
-            <div id="zoom" className='child flex-child' style={{backgroundColor:'rgb(210,210,210)'}}>A</div>
-            <div id="zoom" className='child flex-child' style={{backgroundColor:'rgb(193,193,193)'}}>A</div>
-            <div id="zoom" className='child flex-child' style={{backgroundColor:'rgb(170,170,170)'}}>A</div>
-            <div id="zoom" className='child flex-child' style={{backgroundColor:'rgb(150,150,150)'}}>A</div>
-            <div id="zoom" className='child flex-child' style={{backgroundColor:'rgb(136,136,136)'}}>A</div>
-            <div id="zoom" className='child flex-child' style={{backgroundColor:'rgb(114,114,114)'}}>A</div>
-            <div id="zoom" className='child flex-child' style={{backgroundColor:'rgb(95,95,95)'}}>A</div>
+            <div id="zoom" className='child1 flex-child' onClick={this.handleClick}>A</div>
+            <div id="zoom" className='child2 flex-child'>B</div>
+            <div id="zoom" className='child3 flex-child'>C</div>
+            <div id="zoom" className='child4 flex-child'>D</div>
+            <div id="zoom" className='child5 flex-child'>E</div>
+            <div id="zoom" className='child6 flex-child'>F</div>
+            <div id="zoom" className='child7 flex-child'>G</div>
+            <div id="zoom" className='child8 flex-child'>H</div>
           </div>
           </div>
           </div>
