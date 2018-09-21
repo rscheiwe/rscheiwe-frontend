@@ -1,19 +1,22 @@
 @media (max-width: 750px), (max-height: 450px) {
 	.Container h3 {
 		font-size: 50px;
-
-		}
-
+	}
+	.inner {
+		transform: rotate(-90deg);
+		position:absolute;
+		top:50%;
+		left:50%;
+	}
 	.flex-parent {
 		transform: rotate(90deg);
-		/* padding: 0; */
 	}
 }
 @media (max-width: 450px), (max-height: 350px) {
 	.Container h3 {
 		font-size: 40px;
 		}
-		
+
 	}
 
 body, html {
@@ -22,7 +25,6 @@ body, html {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	/* background: #000; */
 }
 
 .blur {
@@ -47,6 +49,13 @@ body, html {
 .Container {
 	/* width:70vw;
 	height:70vh; */
+}
+
+.inner {
+	display:block;
+	position:absolute;
+	top:50%;
+	left:45%;
 }
 
 br {
@@ -76,55 +85,61 @@ h3 {
 .parent {
   padding-right: 20%;
   padding-left: 20%;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-
-
+  padding-top: 10em;
+  padding-bottom: 10em;
 }
+
+.about {
+	/* position:absolute;
+	padding-top: 65vh; */
+	top:50%;
+	left:50%;
+	transform: translate(80%, 60%);
+}
+
+.footer {
+	position:absolute;
+	padding-top: 35em;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
 .child {
   padding: 1rem;
-
   background-color: blue;
 }
 
 .child1 {
   padding: 1rem;
-
 	background-color:rgb(231,231,231);
 }
 .child2 {
   padding: 1rem;
-
   background-color:rgb(210,210,210);
 }
 .child3 {
   padding: 1rem;
-
   background-color:rgb(193,193,193);
 }
 .child4 {
   padding: 1rem;
-
   background-color:rgb(170,170,170);
 }
 .child5 {
   padding: 1rem;
-
   background-color:rgb(150,150,150);
 }
 .child6 {
   padding: 1rem;
-
   background-color:rgb(136,136,136);
 }
 .child7 {
   padding: 1rem;
-
   background-color:rgb(114,114,114);
 }
 .child8 {
   padding: 1rem;
-
   background-color:rgb(95,95,95);
 }
 
