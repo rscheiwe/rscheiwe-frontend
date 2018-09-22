@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
+import Headerx from './components/Header.js'
 import Footer from './components/Footer.js'
 import About from './components/About.js'
+
+
 
 import './App.css';
 
 class App extends Component {
 
   handleClick = () => {
-    console.log("HELLO")
+    console.log("CLICKED")
   }
 
+
+
   render() {
+
     return (
-      <div id="Stage">
-      <h3 style={{ fontFamily:'Oswald', letterSpacing:'5px'}}>Richard Scheiwe</h3>
+      <div >
+        <Headerx />
+
         <div className="Container">
 
 
