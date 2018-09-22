@@ -13,9 +13,9 @@ class App extends Component {
   render() {
     return (
       <div id="Stage">
+      <h3 style={{ fontFamily:'Oswald', letterSpacing:'5px'}}>Richard Scheiwe</h3>
         <div className="Container">
 
-        <h3 style={{textAlign:'center'}}>Richard Scheiwe</h3>
 
           <div className='parent flex-parent'>
             <div id="zoom" className='child1 flex-child' onClick={this.handleClick}><div className="inner">A</div></div>
