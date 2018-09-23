@@ -89,7 +89,7 @@ br {
 	filter: grayscale(100%);
 }
 
-input {
+/* input {
 	user-select: all;
 	-moz-user-select: all;
 	-webkit-user-select: auto !important;
@@ -99,7 +99,7 @@ input {
 	padding: 0px;
 	outline: none;
 	-ms-user-select: all;
-}
+} */
 
 .main-title {
 		position: absolute;
@@ -130,10 +130,12 @@ input {
 	 width:3em;
 }
 
-
-
 .about:hover  {
 	filter:invert(100%);
+}
+
+.about-page {
+	height:100%;
 }
 
 .footer {
