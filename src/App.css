@@ -14,9 +14,16 @@
 	.about-img {
 		transform: scale(.8);
 	}
-
 	.fab {
 		transform: scale(.8);
+	}
+	.demos-main {
+		transform: scale(.8);
+		margin-top:0% !important;
+	}
+	.iframe-mirror {
+		margin-top:0 !important;
+		margin-bottom: 10%;
 	}
 
 }
@@ -106,6 +113,15 @@ a:visited {
 }
 
 .main-title {
+		position: absolute;
+		left: 15px;
+		top: 7%;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		width: 250px;
+}
+.main-icon {
 		position: absolute;
 		left: 15px;
 		top: 7%;
@@ -239,14 +255,19 @@ a:visited {
 
 .demos-main {
 	display: flex;
+	/* height:300px; */
+	/* width:500px; */
 	flex-direction: row;
-	flex-grow: 1;
+	/* flex-shrink: 1 1 200px; */
 	flex-wrap: wrap;
 	justify-content:center;
+	margin-top:10%;
 }
 
 .iframe-mirror {
-	padding: 5px;
+	padding:10px 10px;
+	margin-top:45px;
+	/* margin-bottom:5%; */
 }
 
 
