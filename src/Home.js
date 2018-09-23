@@ -25,14 +25,21 @@ class Home extends Component {
 
   render() {
     const customMessageElement = (
-      <div className='about-page' onClick={this.handleClick}></div>
+      <div className='about-page' onClick={this.handleClick}>
+        <img className="" style={{paddingTop:'10%'}} src='/images/richard-scheiwe_question.png' />
+      </div>
     );
 
     return (
 
       <div >
 
-      <Loader show={this.state.isActive} onClick={this.handleClick} message={customMessageElement} >
+      <Loader show={this.state.isActive}
+              onClick={this.handleClick}
+              message={customMessageElement}
+              backgroundStyle={{backgroundColor: 'black', opacity:'0.6'}}
+              contentBlur={5}
+              >
 
         <Headerx />
 
