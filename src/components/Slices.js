@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Loader from 'react-loader-advanced';
+
 
 class Slices extends Component {
 
