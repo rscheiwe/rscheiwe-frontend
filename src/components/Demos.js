@@ -6,9 +6,9 @@ class Demos extends Component {
   render() {
     return(
       <div>
-        <a href="/" >
-          <img className="main-icon" src='./richard-scheiwe_icon.png' style={{width:'10%', position:'relative !important'}}/>
-        </a>
+      <a href="/" className="main-icon-link">
+        <img src='./richard-scheiwe_icon.png' style={{width:'100px'}} alt="main-icon"/>
+      </a>
         <div className="demos-main">
           <span className="iframe-mirror">
             <iframe width="100%" height="100%" frameborder="0" allowFullScreen

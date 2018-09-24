@@ -25,6 +25,14 @@
 		margin-top:0 !important;
 		margin-bottom: 10%;
 	}
+	.main-icon-link {
+		/* position:relative !important; */
+		padding-top: 10em;
+		/* padding-bottom:10em; */
+		transform: translate(-30%, -80%) !important;
+
+
+	}
 
 }
 @media (max-width: 450px), (max-height: 350px) {
@@ -122,14 +130,34 @@ a:visited {
 		width: 250px;
 }
 .main-icon {
-		position: absolute;
-		left: 15px;
-		top: 7%;
+		/* position: absolute; */
+		/* left: 15px;
+		top: 70%;
 		right: 0;
-		margin-left: auto;
-		margin-right: auto;
+
+		margin-right: auto; */
 		width: 250px;
+		/* padding-right: 155px; */
+		/* margin-right: 2em; */
+		margin-left: 80%;
+		/* right: 10%; */
+		margin-top:2em;
+		/* left:90%; */
+		/* transform: translate(10%, -150%); */
 }
+
+.main-icon-link {
+	position: absolute;
+	margin-left: 80%;
+	/* right: 10%; */
+	margin-top:2em;
+	transform: translate(10%, -170%);
+}
+
+.main-icon:hover  {
+	filter:invert(100%);
+}
+
 .parent {
   padding-right: 20%;
   padding-left: 20%;
@@ -271,68 +299,8 @@ a:visited {
 }
 
 
-
 /* #zoom:hover ~ #zoom {
     transform: translate3d(0px, 0px, 20px) scaleX(.7) scaleY(1);
     transform:translateX(10%);
 		background-color:rgba(138, 235, 244, 0.2);
-} */
-
-/* .child1:hover + .child2 {
-	transform:translateX(55px);
-	z-index:7;
-}
-.child1:hover ~ .child3 {
-	transform:translateX(45px);
-	z-index:6;
-}
-.child1:hover ~ .child4 {
-	transform:translateX(35px);
-	z-index:5;
-}
-.child1:hover ~ .child5 {
-	transform:translateX(25px);
-	z-index:4;
-}
-.child1:hover ~ .child6 {
-	transform:translateX(15px);
-	z-index:3;
-}
-.child1:hover ~ .child7 {
-	transform:translateX(5px);
-	z-index:2;
-}
-.child1:hover ~ .child8 {
-	transform:translateX(0px);
-	z-index:1;
-}
-*/
-/*
-.child2:hover div:nth-of-type(-n+4)){
-	transform:translateX(-55px);
-	z-index:7;
-}
-.child2:hover ~ .child3 {
-	transform:translateX(45px);
-	z-index:6;
-}
-.child2:hover ~ .child4 {
-	transform:translateX(35px);
-	z-index:5;
-}
-.child2:hover ~ .child5 {
-	transform:translateX(25px);
-	z-index:4;
-}
-.child2:hover ~ .child6 {
-	transform:translateX(15px);
-	z-index:3;
-}
-.child2:hover ~ .child7 {
-	transform:translateX(5px);
-	z-index:2;
-}
-.child2:hover ~ .child8 {
-	transform:translateX(0px);
-	z-index:1;
 } */
