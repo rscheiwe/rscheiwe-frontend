@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Headerx from './components/Header.js'
+import Header from './components/Header.js'
 import Slices from './components/Slices.js'
 import Footer from './components/Footer.js'
 import About from './components/About.js'
@@ -25,7 +25,7 @@ class Home extends Component {
     const customMessageElement = (
       <div className='about-extend' onClick={this.handleClick}>
       <div className='about-page' >
-        <img className="about-page-item" src='/images/richard-scheiwe_bio.png' />
+        <img className="about-page-item" src='/images/richard-scheiwe_bio.png' alt="richard-scheiwe_bio"/>
         <span>
         <h3 className="about-page-item" style={{fontFamily:'Sarpanch', letterSpacing:'4px'}}>
           RICHARD SCHEIWE
@@ -51,7 +51,7 @@ class Home extends Component {
               contentBlur={5}
               >
 
-        <Headerx />
+        <Header />
 
         <div className="Container">
 

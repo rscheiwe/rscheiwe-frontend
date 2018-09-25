@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Loader from 'react-loader-advanced';
 import CustomMessageElement from './Messages.js'
 
-let Feed = require('rss-to-json')
+import Adapter from '../Adapter.js'
 
 class Slices extends Component {
 
@@ -10,6 +10,18 @@ class Slices extends Component {
     isActive:false,
     isActive2:false,
     articles:[]
+  }
+
+  componentDidMount() {
+    Adapter.readArticles()
+    .then(data => {
+      console.log(data["payload"]["references"]);
+
+    })
+    .catch(e => {
+      console.log(e);
+      return e;
+    });
   }
 
   handleClick = () => {
@@ -27,13 +39,6 @@ class Slices extends Component {
     )
   }
 
-  componentDidMount() {
-    let articles=[]
-    Feed.load('https://medium.com/feed/@rscheiwe', function(err, rss){
-        articles.push(rss['items'])
-    })
-    this.passArticles(articles)
-  }
 
   passArticles = (articles) => {
     this.setState({
@@ -52,7 +57,7 @@ class Slices extends Component {
       <div className='article-extend' onClick={this.handleClick2}>
         {this.state.articles[0] ?
           <div className='article-page'>
-            <img className="" width='200px' height='200px' src='/images/Medium-logo.png' />
+            <img className="" width='200px' height='200px' src='/images/Medium-logo.png' alt="medium-logo"/>
           <span>
             <p style={{textAlign:'right'}}>{this.translateDate(this.state.articles[0][0]['created']).toString()}</p>
             <h3 className="article-page-item" style={{fontFamily:'Sarpanch', textAlign:'right'}}>
