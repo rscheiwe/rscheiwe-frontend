@@ -4,8 +4,6 @@ import Slices from './components/Slices.js'
 import Footer from './components/Footer.js'
 import About from './components/About.js'
 
-import mediumJSONFeed from 'medium-json-feed'
-
 import Loader from 'react-loader-advanced';
 
 import './App.css';
@@ -25,10 +23,8 @@ class Home extends Component {
     )
   }
 
-  handleFetch = () => {
-    mediumJSONFeed('@rscheiwe/latest')
-      .then(console.log)
-  }
+
+
 
   render() {
     const customMessageElement = (
@@ -51,7 +47,7 @@ class Home extends Component {
 
       <div >
 
-      <button onClick={this.handleFetch}> HI </button>
+    
 
       <Loader show={this.state.isActive}
               onClick={this.handleClick}
