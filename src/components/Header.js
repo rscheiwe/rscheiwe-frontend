@@ -4,7 +4,7 @@ const Header = () => {
 
   return (
     <div>
-      <a href="/demos" >
+      <a href="/" className="">
         <h3 className="main-title" style={{ fontFamily:'Sarpanch', letterSpacing:'4px'}}>
           RICHARD SCHEIWE
         </h3>

@@ -8,8 +8,6 @@ import Loader from 'react-loader-advanced';
 
 import './App.css';
 
-
-
 class Home extends Component {
 
   state = {
@@ -22,9 +20,6 @@ class Home extends Component {
       })
     )
   }
-
-
-
 
   render() {
     const customMessageElement = (
@@ -47,7 +42,7 @@ class Home extends Component {
 
       <div >
 
-    
+
 
       <Loader show={this.state.isActive}
               onClick={this.handleClick}

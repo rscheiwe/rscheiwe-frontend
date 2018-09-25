@@ -12,15 +12,13 @@ class Slices extends Component {
     articles:[]
   }
 
-
-
   handleClick = () => {
     this.setState(prevState => ({
         isActive:!prevState.isActive
       })
     )
   }
-  
+
   handleClick2 = (num) => {
     num.target ? console.log(num.target.className) : null
     this.setState(prevState => ({
@@ -40,7 +38,7 @@ class Slices extends Component {
   passArticles = (articles) => {
     this.setState({
       articles:articles
-    }, () => console.log(this.state.articles))
+    })
   }
 
   translateDate = (epoch) => {

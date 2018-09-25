@@ -37,7 +37,56 @@
 		} */
 
 
-	}
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
 
 body, html {
 	margin: 0;
@@ -85,6 +134,8 @@ body, html {
 
 .fab:hover {
 	color:green;
+	-moz-filter: invert(100%);
+	-webkit-filter: invert(100%);
 	filter:invert(100%);
 }
 
@@ -97,6 +148,8 @@ br {
 }
 
 .grayscale {
+	-moz-filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
 
@@ -148,9 +201,13 @@ a:visited {
 	/* right: 10%; */
 	margin-top:2em;
 	transform: translate(10%, -170%);
+	-moz-transform: translate(10%, -170%);
+	-webkit-transform: translate(10%, -170%);
 }
 
 .main-icon-link:hover  {
+	-moz-filter: invert(100%);
+	-webkit-filter: invert(100%);
 	filter:invert(100%);
 }
 
@@ -167,6 +224,8 @@ a:visited {
 	top:40%;
 	left:90%;
 	transform: translate(90%, -80%);
+	-moz-transform: translate(90%, -80%);
+	-webkit-transform: translate(90%, -80%);
 
 }
 
@@ -175,11 +234,15 @@ a:visited {
 }
 
 .about:hover  {
+	-moz-filter: invert(100%);
+	-webkit-filter: invert(100%);
 	filter:invert(100%);
+
 }
 
 .about-extend {
 	height:100%;
+	-moz-padding-top:0;
 	padding-top:15%;
 }
 
