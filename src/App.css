@@ -13,8 +13,12 @@
 		background-image: url('/images/jacoto_logo_rotate_skew.png') !important;
 
 	}
+	.child2:hover:after {
+		background-image: url('/images/Jarvify-logo_rotate_skew.png') !important;
+
+	}
 	.child8:hover:after {
-		background-image: url('/images/Medium-logo_rotate.png') !important;
+		background-image: url('/images/Medium-logo_rotate_skewx.png') !important;
 
 	}
 	.flex-parent {
@@ -189,6 +193,12 @@ a:visited {
 }
 
 .main-icon-link:hover  {
+	-moz-filter: invert(100%);
+	-webkit-filter: invert(100%);
+	filter:invert(100%);
+}
+
+.loader-jacoto-logo  {
 	-moz-filter: invert(100%);
 	-webkit-filter: invert(100%);
 	filter:invert(100%);
@@ -373,7 +383,7 @@ a:visited {
   height:100%;
 	background:rgba(18, 194, 233, 1);
   position:absolute;
-	background-image:url('/images/jacoto_logo_skew.png');
+	background-image:url('/images/jacoto_logo_skewx.png');
 	background-repeat:no-repeat;
 	background-size:70%;
 	background-position: center;
@@ -386,6 +396,10 @@ a:visited {
   height:100%;
 	background:rgba(62, 173, 234, 1);
   position:absolute;
+	background-image:url('/images/Jarvify-logo_skew.png');
+	background-repeat:no-repeat;
+	background-size:70%;
+	background-position: center;
   top:0;
   left:0;
 }
