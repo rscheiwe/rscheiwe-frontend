@@ -97,28 +97,13 @@ body, html {
 
 }
 
-/* .blur {
-	-webkit-filter: blur(80px);
-	-moz-filter: blur(80px);
-	-o-filter: blur(80px);
-	-ms-filter: blur(80px);
-	filter: blur(80px);
-} */
-/*
-* {
-	position: absolute;
-	user-select: none;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-o-user-select: none;
-	-ms-user-select: none;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	-webkit-text-size-adjust: none;
-} */
-
 .Container {
-	/* width:70vw;
-	height:70vh; */
+	/* width:70vw; */
+	/* height:70vh; */
+}
+.Container-view {
+	padding-top:20%;
+	/* align-content:center; */
 }
 
 .inner {
@@ -153,25 +138,13 @@ br {
 	filter: grayscale(100%);
 }
 
-/* input {
-	user-select: all;
-	-moz-user-select: all;
-	-webkit-user-select: auto !important;
-	-o-user-select: all;
-	border: none;
-	border-radius: 0px;
-	padding: 0px;
-	outline: none;
-	-ms-user-select: all;
-} */
-
 a:visited {
 	color:black;
 }
 
 .main-title {
 		position: absolute;
-		left: 15px;
+		left: 27px;
 		top: 7%;
 		right: 0;
 		margin-left: auto;
@@ -268,6 +241,7 @@ a:visited {
 	padding-top:15%;
 }
 
+
 .article-page {
 	/* height:100%; */
 	display: flex;
@@ -280,7 +254,11 @@ a:visited {
 	/* margin-top:0%; */
 }
 .article-page-item {
-	width: 500px;
+	width: 600px;
+	font-family:Sarpanch;
+	text-align:right;
+	font-size:25px;
+	letter-spacing:2px;
 	/* height: 200px; */
 }
 
@@ -289,7 +267,7 @@ a:visited {
 	padding-top: 1em;
 	top:40%;
 	left:50%;
-	transform: translate(1%, -50%);
+	transform: translate(0.5%, -50%);
 	z-index: 1;
 }
 
@@ -467,6 +445,42 @@ a:visited {
 	padding:10px 10px;
 	margin-top:45px;
 	/* margin-bottom:5%; */
+}
+
+.medium-display {
+	font-family:Sarpanch;
+	text-align:right;
+	padding-top:1em;
+}
+
+.medium-icon {
+	padding-top:7%;
+}
+
+.Page404-extend {
+	height:100%;
+	padding-top:5%;
+	text-align:center;
+	font-family:Sarpanch;
+	letter-spacing:10px;
+	line-height:25px;
+
+}
+.copyright-extend {
+	/* position:absolute;
+	margin-left:38%;
+	transform: translate(1%, -90%);
+	z-index: 0;
+	 */
+	font-size:12px;
+	font-family:Sarpanch;
+	letter-spacing:5px;
+	display:inline-block;
+
+}
+
+.copyright-parent {
+	text-align:center;
 }
 
 

@@ -4,6 +4,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
+    <div>
     <div className="footer flex-parent">
       <a href="https://www.twitter.com/rscheiwe" target="_blank" rel="noopener noreferrer">
         <i  className="fab fa-twitter fa-lg"> &nbsp; &nbsp;</i>
@@ -17,6 +18,9 @@ const Footer = () => {
       <a href="https://www.linkedin.com/in/richardscheiwe" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-linkedin-in fa-lg"> &nbsp; &nbsp;</i>
       </a>
+
+    </div>
+
     </div>
   )
 }

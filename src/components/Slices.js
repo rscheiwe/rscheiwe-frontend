@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Loader from 'react-loader-advanced';
 import CustomMessageElement from './Messages.js'
+import CustomMessageElement2 from './Messages2.js'
 
 import Adapter from '../Adapter.js'
 
@@ -15,8 +16,7 @@ class Slices extends Component {
   componentDidMount() {
     Adapter.readArticles()
     .then(data => {
-      console.log(data["payload"]["references"]);
-
+      this.passArticles(data["payload"]["references"]["Post"]);
     })
     .catch(e => {
       console.log(e);
@@ -51,41 +51,9 @@ class Slices extends Component {
   }
 
   render () {
+    // console.log(Object.values(this.state.articles)[0])
 
 
-    const customMessageElement2 = (
-      <div className='article-extend' onClick={this.handleClick2}>
-        {this.state.articles[0] ?
-          <div className='article-page'>
-            <img className="" width='200px' height='200px' src='/images/Medium-logo.png' alt="medium-logo"/>
-          <span>
-            <p style={{textAlign:'right'}}>{this.translateDate(this.state.articles[0][0]['created']).toString()}</p>
-            <h3 className="article-page-item" style={{fontFamily:'Sarpanch', textAlign:'right'}}>
-              {this.state.articles[0][0]['title']}
-              <hr />
-            </h3>
-            <p style={{textAlign:'right'}}>{this.translateDate(this.state.articles[0][1]['created']).toString()}</p>
-            <h3 className="article-page-item" style={{fontFamily:'Sarpanch', textAlign:'right'}}>
-              {this.state.articles[0][1]['title']}
-              <hr />
-            </h3>
-            <p style={{textAlign:'right'}}>{this.translateDate(this.state.articles[0][2]['created']).toString()}</p>
-            <h3 className="article-page-item" style={{fontFamily:'Sarpanch', textAlign:'right'}}>
-              {this.state.articles[0][2]['title']}
-              <hr />
-            </h3>
-            <p style={{textAlign:'right'}}>{this.translateDate(this.state.articles[0][3]['created']).toString()}</p>
-            <h3 className="article-page-item" style={{fontFamily:'Sarpanch', textAlign:'right'}}>
-              {this.state.articles[0][3]['title']}
-              <hr />
-            </h3>
-          </span>
-          </div>
-          :
-          null
-        }
-      </div>
-    );
 
     return (
 
@@ -97,7 +65,7 @@ class Slices extends Component {
               >
       <Loader show={this.state.isActive2}
               onClick={() => this.handleClick2(2)}
-              message={customMessageElement2}
+              message={<CustomMessageElement2 handleClick2={this.handleClick2} articles={this.state.articles} translateDate={this.translateDate}/>}
               backgroundStyle={{height:'120%'}}
               contentBlur={5}
               >

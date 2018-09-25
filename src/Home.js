@@ -3,6 +3,7 @@ import Header from './components/Header.js'
 import Slices from './components/Slices.js'
 import Footer from './components/Footer.js'
 import About from './components/About.js'
+import Copyright from './components/Copyright.js'
 
 import Loader from 'react-loader-advanced';
 
@@ -58,6 +59,7 @@ class Home extends Component {
           <Slices />
           <Footer />
           <About handleClick={ this.handleClick } />
+          <Copyright />
 
         </div>
         </Loader>
