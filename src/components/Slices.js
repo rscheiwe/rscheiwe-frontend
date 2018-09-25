@@ -70,7 +70,11 @@ class Slices extends Component {
               contentBlur={5}
               >
       <div className='parent flex-parent'>
-        <div id="zoom" className='child1 flex-child' onClick={this.handleClick}><div className="inner">A</div></div>
+        <div id="zoom" className='child1 flex-child' onClick={this.handleClick}>
+          <div className="inner">
+          
+          </div>
+        </div>
         <div id="zoom" className='child2 flex-child' onClick={this.handleClick}><div className="inner">B</div></div>
         <div id="zoom" className='child3 flex-child' onClick={this.handleClick}><div className="inner">C</div></div>
         <div id="zoom" className='child4 flex-child' onClick={this.handleClick}><div className="inner">D</div></div>

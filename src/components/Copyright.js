@@ -4,7 +4,7 @@ const Copyright = () => {
   return (
     <div className="copyright-parent">
     <div className="copyright-extend" >
-      copyright &copy; 2018 RICHARD SCHEIWE
+      copyright &copy; {new Date().getFullYear()} RICHARD SCHEIWE
     </div>
     </div>
   )
