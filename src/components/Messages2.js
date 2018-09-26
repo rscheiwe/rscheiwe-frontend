@@ -3,7 +3,21 @@ import React from 'react'
 const CustomMessageElement = (props) => {
     return (
       <div className='about-extend' onClick={props.handleClick}>
-        <img className="loader-jacoto-logo" src='/images/jacoto_logo.png' alt="placeholder"/>
+      <div className='article-page' >
+      <span>
+        <img className="about-page-item" src='/images/jacoto_logo.png' alt="richard-scheiwe_bio" />
+        <img className="about-page-item" src='/images/jacoto_logo.png' alt="richard-scheiwe_bio" />
+      </span>
+
+        <span>
+        <h3 className="about-page-item" style={{fontFamily:'Sarpanch', letterSpacing:'4px'}}>
+          RICHARD SCHEIWE
+        </h3>
+        <p className="about-page-item" style={{fontFamily:'Sarpanch', textAlign:'right', padding:'2em'}}>
+        Currently, I’m exploring ways to synchronize Python-driven machine-learning with Ruby on Rails and Node.js backends. My passion for software engineering stems from taking the intensive Machine-learning and Neural Network course in Python at General Assembly in 2017. With over a decade in entrepreneurship and teaching, I have long been attracted to creating new experiences for people in which they draw value from learning something new or simply reorienting their views of the world. These professional experiences allow me to bring strong skills in critical thinking, team-building, and creative problem solving through coding.
+        </p>
+        </span>
+      </div>
       </div>
     )
   };
