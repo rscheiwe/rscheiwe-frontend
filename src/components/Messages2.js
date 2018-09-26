@@ -7,11 +7,25 @@ const CustomMessageElement = (props) => {
       </div>
     )
   };
-  
+
 const CustomMessageElement2 = (props) => {
     return (
       <div className='about-extend' onClick={props.handleClick2}>
-        <img className="loader-jarvify-logo" src='/images/Jarvify-logo.png' alt="placeholder"/>
+        <img className="loader-jarvify-logo" src='/images/jarvify_logox1.png' alt="placeholder" width='200px' height='200px'/>
+      </div>
+    )
+  };
+const CustomMessageElement4 = (props) => {
+    return (
+      <div className='about-extend' onClick={props.handleClick4}>
+        <img className="loader-jarvify-logo" src='/images/mediaoceanlogo.png' alt="placeholder"/>
+      </div>
+    )
+  };
+const CustomMessageElement6 = (props) => {
+    return (
+      <div className='about-extend' onClick={props.handleClick6}>
+        <img className="loader-jarvify-logo" src='/images/Ethereum_logo.png' alt="placeholder"/>
       </div>
     )
   };
@@ -67,5 +81,7 @@ const CustomMessageElement8 = (props) => {
 export {
   CustomMessageElement,
   CustomMessageElement2,
+  CustomMessageElement4,
+  CustomMessageElement6,
   CustomMessageElement8
 }
