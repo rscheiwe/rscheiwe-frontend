@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import Loader from 'react-loader-advanced';
 import { CustomMessageElement,
   CustomMessageElement2,
+  CustomMessageElement3,
   CustomMessageElement4,
+  CustomMessageElement5,
   CustomMessageElement6,
   CustomMessageElement7,
   CustomMessageElement8 } from './Messages2.js'
@@ -14,7 +16,9 @@ class Slices extends Component {
   state = {
     isActive:false,
     isActive2:false,
+    isActive3:false,
     isActive4:false,
+    isActive5:false,
     isActive6:false,
     isActive7:false,
     isActive8:false,
@@ -44,9 +48,21 @@ class Slices extends Component {
       })
     )
   }
+  handleClick3 = () => {
+    this.setState(prevState => ({
+        isActive3:!prevState.isActive3
+      })
+    )
+  }
   handleClick4 = () => {
     this.setState(prevState => ({
         isActive4:!prevState.isActive4
+      })
+    )
+  }
+  handleClick5 = () => {
+    this.setState(prevState => ({
+        isActive5:!prevState.isActive5
       })
     )
   }
@@ -62,7 +78,6 @@ class Slices extends Component {
       })
     )
   }
-
   handleClick8 = (num) => {
     num.target ? console.log(num.target.className) : null
     this.setState(prevState => ({
@@ -70,7 +85,6 @@ class Slices extends Component {
       })
     )
   }
-
   passArticles = (articles) => {
     this.setState({
       articles:articles
@@ -97,9 +111,21 @@ class Slices extends Component {
               backgroundStyle={{height:'120%'}}
               contentBlur={5}
               >
+      <Loader show={this.state.isActive3}
+              onClick={this.handleClick3}
+              message={<CustomMessageElement3 handleClick3={this.handleClick3} />}
+              backgroundStyle={{height:'120%'}}
+              contentBlur={5}
+              >
       <Loader show={this.state.isActive4}
               onClick={this.handleClick4}
               message={<CustomMessageElement4 handleClick4={this.handleClick4} />}
+              backgroundStyle={{height:'120%'}}
+              contentBlur={5}
+              >
+      <Loader show={this.state.isActive5}
+              onClick={this.handleClick5}
+              message={<CustomMessageElement5 handleClick5={this.handleClick5} />}
               backgroundStyle={{height:'120%'}}
               contentBlur={5}
               >
@@ -131,12 +157,18 @@ class Slices extends Component {
           <div className="inner">
           </div>
         </div>
-        <div id="zoom" className='child3 flex-child' onClick={this.handleClick}><div className="inner">C</div></div>
+        <div id="zoom" className='child3 flex-child' onClick={this.handleClick3}>
+          <div className="inner">
+          </div>
+        </div>
         <div id="zoom" className='child4 flex-child' onClick={this.handleClick4}>
           <div className="inner">
           </div>
         </div>
-        <div id="zoom" className='child5 flex-child' onClick={this.handleClick}><div className="inner">E</div></div>
+        <div id="zoom" className='child5 flex-child' onClick={this.handleClick5}>
+          <div className="inner">
+          </div>
+        </div>
         <div id="zoom" className='child6 flex-child' onClick={this.handleClick6}>
           <div className="inner">
           </div>
@@ -150,6 +182,8 @@ class Slices extends Component {
           </div>
         </div>
       </div>
+      </Loader>
+      </Loader>
       </Loader>
       </Loader>
       </Loader>

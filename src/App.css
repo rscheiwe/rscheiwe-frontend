@@ -17,6 +17,10 @@
 		background-image: url('/images/jarvify_logox1__rotate_skew.png') !important;
 
 	}
+	.child3:hover:after {
+		background-image: url('/images/suddentrips_logo_rotate_skew.png') !important;
+
+	}
 	.child4:hover:after {
 		background-image: url('/images/mediaoceanlogo_rotate_skew.png') !important;
 
@@ -411,6 +415,10 @@ a:visited {
   height:100%;
 	background:rgba(3, 130, 188, 1);
   position:absolute;
+	background-image:url('/images/suddentrips_logo_skew.png');
+	background-repeat:no-repeat;
+	background-size:80%;
+	background-position: center;
   top:0;
   left:0;
 }
@@ -433,6 +441,10 @@ a:visited {
   height:100%;
 	background:rgba(160, 38, 105, 1);
   position:absolute;
+	background-image:url('/images/brand_logo_skew.png');
+	background-repeat:no-repeat;
+	background-size:80%;
+	background-position: center;
   top:0;
   left:0;
 }
