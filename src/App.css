@@ -54,6 +54,10 @@
 		padding-top: 10em;
 		transform: translate(-30%, -80%) !important;
 	}
+	.info-page-item {
+		width:300px !important;
+		margin-bottom:10px !important;
+	}
 
 }
 @media (max-width: 450px), (max-height: 350px) {
@@ -259,6 +263,12 @@ a:visited {
 
 .about-page-item {
 	width: 400px;
+
+	/* height: 200px; */
+}
+.info-page-item {
+	width: 40%;
+	margin:40px;
 	/* height: 200px; */
 }
 
