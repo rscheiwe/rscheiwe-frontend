@@ -29,6 +29,13 @@ const CustomMessageElement6 = (props) => {
       </div>
     )
   };
+const CustomMessageElement7 = (props) => {
+    return (
+      <div className='about-extend' onClick={props.handleClick7}>
+        <img className="loader-jarvify-logo" src='/images/Data-Viz.png' alt="placeholder" style={{filter:'invert(100%)'}}/>
+      </div>
+    )
+  };
 
 const CustomMessageElement8 = (props) => {
   return (
@@ -83,5 +90,6 @@ export {
   CustomMessageElement2,
   CustomMessageElement4,
   CustomMessageElement6,
+  CustomMessageElement7,
   CustomMessageElement8
 }

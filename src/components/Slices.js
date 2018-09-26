@@ -4,6 +4,7 @@ import { CustomMessageElement,
   CustomMessageElement2,
   CustomMessageElement4,
   CustomMessageElement6,
+  CustomMessageElement7,
   CustomMessageElement8 } from './Messages2.js'
 
 import Adapter from '../Adapter.js'
@@ -15,6 +16,7 @@ class Slices extends Component {
     isActive2:false,
     isActive4:false,
     isActive6:false,
+    isActive7:false,
     isActive8:false,
     articles:[]
   }
@@ -51,6 +53,12 @@ class Slices extends Component {
   handleClick6 = () => {
     this.setState(prevState => ({
         isActive6:!prevState.isActive6
+      })
+    )
+  }
+  handleClick7 = () => {
+    this.setState(prevState => ({
+        isActive7:!prevState.isActive7
       })
     )
   }
@@ -101,6 +109,12 @@ class Slices extends Component {
               backgroundStyle={{height:'120%'}}
               contentBlur={5}
               >
+      <Loader show={this.state.isActive7}
+              onClick={this.handleClick7}
+              message={<CustomMessageElement7 handleClick7={this.handleClick7} />}
+              backgroundStyle={{height:'120%'}}
+              contentBlur={5}
+              >
       <Loader show={this.state.isActive8}
               onClick={() => this.handleClick8(8)}
               message={<CustomMessageElement8 handleClick8={this.handleClick8} articles={this.state.articles} translateDate={this.translateDate}/>}
@@ -127,12 +141,16 @@ class Slices extends Component {
           <div className="inner">
           </div>
         </div>
-        <div id="zoom" className='child7 flex-child' onClick={this.handleClick}><div className="inner">G</div></div>
+        <div id="zoom" className='child7 flex-child' onClick={this.handleClick7}>
+          <div className="inner">
+          </div>
+        </div>
         <div id="zoom" className='child8 flex-child' onClick={this.handleClick8}>
           <div className="inner">
           </div>
         </div>
       </div>
+      </Loader>
       </Loader>
       </Loader>
       </Loader>
