@@ -15,10 +15,9 @@ const CustomMessageElement = (props) => {
         </span>
 
         <span>
-        <h3 className="about-page-item" style={{fontFamily:'Sarpanch', letterSpacing:'4px'}}>
-          RICHARD SCHEIWE
-        </h3>
-        <p className="about-page-item" style={{fontFamily:'Sarpanch', textAlign:'right', padding:'2em'}}>
+        {/*<h3 className="about-page-item" style={{fontFamily:'Sarpanch', letterSpacing:'4px'}}>
+        </h3>*/}
+        <p className="about-page-item2" style={{fontFamily:'Sarpanch', textAlign:'right', padding:'2em'}}>
         Currently, I’m exploring ways to synchronize Python-driven machine-learning with Ruby on Rails and Node.js backends. My passion for software engineering stems from taking the intensive Machine-learning and Neural Network course in Python at General Assembly in 2017. With over a decade in entrepreneurship and teaching, I have long been attracted to creating new experiences for people in which they draw value from learning something new or simply reorienting their views of the world. These professional experiences allow me to bring strong skills in critical thinking, team-building, and creative problem solving through coding.
         </p>
         <a href="https://www.github.com/rscheiwe/jacoto-frontend" target="_blank" rel="noopener noreferrer">
@@ -45,10 +44,7 @@ const CustomMessageElement2 = (props) => {
         </span>
 
         <span>
-        <h3 className="about-page-item" style={{fontFamily:'Sarpanch', letterSpacing:'4px'}}>
-          RICHARD SCHEIWE
-        </h3>
-        <p className="about-page-item" style={{fontFamily:'Sarpanch', textAlign:'right', padding:'2em'}}>
+        <p className="about-page-item2" style={{fontFamily:'Sarpanch', textAlign:'right', padding:'2em'}}>
         Currently, I’m exploring ways to synchronize Python-driven machine-learning with Ruby on Rails and Node.js backends. My passion for software engineering stems from taking the intensive Machine-learning and Neural Network course in Python at General Assembly in 2017. With over a decade in entrepreneurship and teaching, I have long been attracted to creating new experiences for people in which they draw value from learning something new or simply reorienting their views of the world.
         </p>
         <a href="https://www.github.com/rscheiwe/JarvCore" target="_blank" rel="noopener noreferrer">
@@ -81,10 +77,7 @@ const CustomMessageElement4 = (props) => {
         </span>
 
         <span>
-        <h3 className="about-page-item" style={{fontFamily:'Sarpanch', letterSpacing:'4px'}}>
-          RICHARD SCHEIWE
-        </h3>
-        <p className="about-page-item" style={{fontFamily:'Sarpanch', textAlign:'right', padding:'2em'}}>
+        <p className="about-page-item2" style={{fontFamily:'Sarpanch', textAlign:'right', padding:'2em'}}>
         Currently, I’m exploring ways to synchronize Python-driven machine-learning with Ruby on Rails and Node.js backends. My passion for software engineering stems from taking the intensive Machine-learning and Neural Network course in Python at General Assembly in 2017. With over a decade in entrepreneurship and teaching, I have long been attracted to creating new experiences for people in which they draw value from learning something new or simply reorienting their views of the world.
         </p>
         <a href="https://www.github.com/rscheiwe/media_ocean" target="_blank" rel="noopener noreferrer">

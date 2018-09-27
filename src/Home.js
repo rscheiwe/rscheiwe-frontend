@@ -28,7 +28,7 @@ class Home extends Component {
       <div className='about-page' >
         <img className="about-page-item-pic" src='/images/richard-scheiwe_bio.png' alt="richard-scheiwe_bio"/>
         <span>
-        <h3 className="about-page-item" style={{fontFamily:'Sarpanch', letterSpacing:'4px'}}>
+        <h3 className="about-page-item" style={{fontFamily:'Sarpanch', letterSpacing:'4px', padding:'1em'}}>
           RICHARD SCHEIWE
         </h3>
         <p className="about-page-item2" style={{fontFamily:'Sarpanch', textAlign:'right', padding:'2em'}}>
