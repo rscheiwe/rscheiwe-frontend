@@ -26,7 +26,7 @@ class Home extends Component {
     const customMessageElement = (
       <div className='about-extend' onClick={this.handleClick}>
       <div className='about-page' >
-        <img className="about-page-item" src='/images/richard-scheiwe_bio.png' alt="richard-scheiwe_bio"/>
+        <img className="about-page-item-pic" src='/images/richard-scheiwe_bio.png' alt="richard-scheiwe_bio"/>
         <span>
         <h3 className="about-page-item" style={{fontFamily:'Sarpanch', letterSpacing:'4px'}}>
           RICHARD SCHEIWE
