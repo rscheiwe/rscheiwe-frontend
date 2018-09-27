@@ -12,10 +12,12 @@ class About extends Component {
 
 
     return (
+
       <div className="about grayscale" onClick={ this.handlePass }>
         <div  className="overlay" />
           <img  className="about-img" alt="question-mark" src='/images/richard-scheiwe_question.png' />
       </div>
+      
     )
   }
 }

@@ -31,7 +31,7 @@ class Home extends Component {
         <h3 className="about-page-item" style={{fontFamily:'Sarpanch', letterSpacing:'4px'}}>
           RICHARD SCHEIWE
         </h3>
-        <p className="about-page-item" style={{fontFamily:'Sarpanch', textAlign:'right', padding:'2em'}}>
+        <p className="about-page-item2" style={{fontFamily:'Sarpanch', textAlign:'right', padding:'2em'}}>
         Currently, I’m exploring ways to synchronize Python-driven machine-learning with Ruby on Rails and Node.js backends. My passion for software engineering stems from taking the intensive Machine-learning and Neural Network course in Python at General Assembly in 2017. With over a decade in entrepreneurship and teaching, I have long been attracted to creating new experiences for people in which they draw value from learning something new or simply reorienting their views of the world. These professional experiences allow me to bring strong skills in critical thinking, team-building, and creative problem solving through coding.
         </p>
         </span>
