@@ -18,14 +18,14 @@ const CustomMessageElement = (props) => {
         {/*<h3 className="about-page-item" style={{fontFamily:'Sarpanch', letterSpacing:'4px'}}>
         </h3>*/}
         <p className="about-page-item2" style={{textAlign:'left', padding:'2em', letterSpacing:'3px'}}>
-          <i><b>Technologies:</b></i> <br />React/Redux, Python, Javascript, Ruby, Pandas, Selenium, OAuth, PostgreSQL, Heroku<br /><hr />
+          <i><b>Technologies:</b></i> <br />React/Redux, Python, Javascript, Ruby, Rails API, Pandas, Selenium, OAuth, PostgreSQL, Heroku<br /><hr />
           Jacoto is an online-course search engine, with a database of nearly 20K courses. I wrote an algorithm in Python to scrape multiple
           online-course offerers, then transferred that data through Pandas to a custom Ruby algorithm for database seeding.<br /> It features
           OAuth and functionality so that if a user is logged in, she can create a syllabus for herself.<br />
           All CSS is custom. Currently, a machine-learning algo is in the works for a recommendation engine.
         </p>
         <a href="https://www.github.com/rscheiwe/jacoto-frontend" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-github fa-5x" style={{color:'black'}}></i>
+          <i className="fab fa-github fa-3x" style={{color:'black'}}></i>
         </a>
         </span>
       </div>
@@ -49,14 +49,14 @@ const CustomMessageElement2 = (props) => {
 
         <span>
         <p className="about-page-item2" style={{textAlign:'left', padding:'2em', letterSpacing:'3px'}}>
-          <i><b>Technologies:</b></i> <br />React, Javascript, Ruby, p5.js, OAuth<br /><hr />
+          <i><b>Technologies:</b></i> <br />React, Javascript, Ruby, Rails API, Speech Recognition API, p5.js, OAuth<br /><hr />
           Jarvify is a voice-activated and voice-controlled music-library player, inspired by Amazon's Alexa.<br />
           It uses the Spotify API and OAuth to log a user in. A user may search artists and/or genres, add tracks
           to a playlist, stop the playing, and log out, all with voice commands.<br />
           All styling is custom, using Processing's p5.js and Processing3 libraries.
         </p>
         <a href="https://www.github.com/rscheiwe/JarvCore" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-github fa-5x" style={{color:'black'}}></i>
+          <i className="fab fa-github fa-3x" style={{color:'black'}}></i>
         </a>
         </span>
       </div>
