@@ -17,8 +17,12 @@ const CustomMessageElement = (props) => {
         <span>
         {/*<h3 className="about-page-item" style={{fontFamily:'Sarpanch', letterSpacing:'4px'}}>
         </h3>*/}
-        <p className="about-page-item2" style={{fontFamily:'Sarpanch', textAlign:'right', padding:'2em'}}>
-        Currently, I’m exploring ways to synchronize Python-driven machine-learning with Ruby on Rails and Node.js backends. My passion for software engineering stems from taking the intensive Machine-learning and Neural Network course in Python at General Assembly in 2017. With over a decade in entrepreneurship and teaching, I have long been attracted to creating new experiences for people in which they draw value from learning something new or simply reorienting their views of the world. These professional experiences allow me to bring strong skills in critical thinking, team-building, and creative problem solving through coding.
+        <p className="about-page-item2" style={{textAlign:'left', padding:'2em', letterSpacing:'3px'}}>
+          <i><b>Technologies:</b></i> <br />React/Redux, Python, Javascript, Ruby, Pandas, Selenium, OAuth, PostgreSQL, Heroku<br /><hr />
+          Jacoto is an online-course search engine, with a database of nearly 20K courses. I wrote an algorithm in Python to scrape multiple
+          online-course offerers, then transferred that data through Pandas to a custom Ruby algorithm for database seeding.<br /> It features
+          OAuth and functionality so that if a user is logged in, she can create a syllabus for herself.<br />
+          All CSS is custom. Currently, a machine-learning algo is in the works for a recommendation engine.
         </p>
         <a href="https://www.github.com/rscheiwe/jacoto-frontend" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github fa-5x" style={{color:'black'}}></i>
@@ -44,8 +48,12 @@ const CustomMessageElement2 = (props) => {
         </span>
 
         <span>
-        <p className="about-page-item2" style={{fontFamily:'Sarpanch', textAlign:'right', padding:'2em'}}>
-        Currently, I’m exploring ways to synchronize Python-driven machine-learning with Ruby on Rails and Node.js backends. My passion for software engineering stems from taking the intensive Machine-learning and Neural Network course in Python at General Assembly in 2017. With over a decade in entrepreneurship and teaching, I have long been attracted to creating new experiences for people in which they draw value from learning something new or simply reorienting their views of the world.
+        <p className="about-page-item2" style={{textAlign:'left', padding:'2em', letterSpacing:'3px'}}>
+          <i><b>Technologies:</b></i> <br />React, Javascript, Ruby, p5.js, OAuth<br /><hr />
+          Jarvify is a voice-activated and voice-controlled music-library player, inspired by Amazon's Alexa.<br />
+          It uses the Spotify API and OAuth to log a user in. A user may search artists and/or genres, add tracks
+          to a playlist, stop the playing, and log out, all with voice commands.<br />
+          All styling is custom, using Processing's p5.js and Processing3 libraries.
         </p>
         <a href="https://www.github.com/rscheiwe/JarvCore" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github fa-5x" style={{color:'black'}}></i>
@@ -58,7 +66,7 @@ const CustomMessageElement2 = (props) => {
 const CustomMessageElement3 = (props) => {
     return (
       <div className='about-extend' onClick={props.handleClick3}>
-        <img className="loader-jarvify-logo" src='/images/suddentrips_logo.png' alt="placeholder" width='200px' height='200px'/>
+        <img className="loader-jarvify-logo" src='/images/suddentrips_logo.png' alt="placeholder"/>
       </div>
     )
   };
