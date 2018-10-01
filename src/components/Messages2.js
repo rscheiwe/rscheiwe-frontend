@@ -159,7 +159,7 @@ const CustomMessageElement6 = (props) => {
           <a href="https://ethereum.org/" target="_blank" rel="noopener noreferrer">
             <img className="info-page-item2" src='/images/Ethereum_logo.png' alt="placeholder"/>
           </a>
-          <a href="https://www.github.com/rscheiwe/ethereum-test" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.github.com/rscheiwe/ethereum-solidity-test" target="_blank" rel="noopener noreferrer">
             <img className="info-page-item2" src='https://solidity.readthedocs.io/en/v0.4.24/_images/logo.svg' alt="richard-scheiwe_bio" />
           </a>
         </span>
@@ -187,10 +187,10 @@ const CustomMessageElement7 = (props) => {
       <div className='about-extend' onClick={props.handleClick7}>
       <div className='article-page' >
         <span>
-          <a href="http://glacial-depths-45879.herokuapp.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/rscheiwe/Recession-Transaction-Predictive-Modeling" target="_blank" rel="noopener noreferrer">
             <img className="info-page-item" src='/images/data-science.png' alt="richard-scheiwe_bio"/>
           </a>
-          <a href="http://glacial-depths-45879.herokuapp.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/rscheiwe/Recession-Transaction-Predictive-Modeling" target="_blank" rel="noopener noreferrer">
             <img className="info-page-item" src='/images/richard_scheiwe_heatmap.png' alt="richard-scheiwe_bio" />
           </a>
         </span>
